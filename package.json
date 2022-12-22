@@ -7,11 +7,21 @@
     "dev": "parcel index.html",
     "build": "parcel build index.html"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kei170/my-file.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kei170/my-file/issues"
+  },
+  "homepage": "https://github.com/kei170/my-file#readme",
   "devDependencies": {
-    "bundler": "^0.8.0",
-    "parcel": "^2.8.2"
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "jquery": "^3.6.3"
   }
 }
